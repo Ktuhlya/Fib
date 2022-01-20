@@ -4,7 +4,6 @@
         val sc = Scanner(System.`in`)
         print("Кол-во элементов последовательности Фибаначчи: \n>")
         val amount = sc.nextInt()
-        //if (amout)
         val list = mutableListOf<Long>(0)
         var before: Long = 1
         var bbefore: Long = 0
